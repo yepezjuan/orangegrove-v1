@@ -15,9 +15,9 @@ const Carousel = ({ data }) => {
 
 
     return (
-        <div className='carousel'>
+        <div className='w-full overflow-hidden grid grid-cols-3'>
             {carouselData.map((item, idx) => (
-                <img className='car-item' src={item.src} alt={item.alt} key={idx} />
+                <img className=' h-auto object-cover' src={item.src} alt={item.alt} key={idx} />
             ))}
         </div>
     );

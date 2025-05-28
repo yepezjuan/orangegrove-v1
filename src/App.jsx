@@ -6,6 +6,7 @@ import Carousel from './components/Carousel'
 import Services from './components/Services'
 import Gallery from './components/Gallery'
 import Products from './components/Products'
+import Contact from './components/Contact'
 
 
 
@@ -20,6 +21,9 @@ function App() {
       <Services />
       <Gallery />
       <Products />
+      <Contact />
+
+
     </>
   )
 }
