@@ -1,5 +1,5 @@
 import React from 'react'
-import "./Carousel.css"
+
 
 import pic4 from '../assets/pic4.jpg';
 import pic5 from '../assets/pic5.jpg';
