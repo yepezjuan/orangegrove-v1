@@ -10,11 +10,11 @@ const services = [
     },
     {
         title: "Photography",
-        description: "Custom apparel with your unique designs."
+        description: "Open to any project or idea. Will work with your budget "
     },
     {
         title: "Videography",
-        description: "Professional content for your brand or event."
+        description: "Open  to any project or idea. Will work with your budget."
     }
 ];
 

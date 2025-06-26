@@ -11,6 +11,7 @@ const carouselData = [
     { src: pic5, alt: 'Third Image' }
 ];
 
+
 const Carousel = ({ data }) => {
 
 
