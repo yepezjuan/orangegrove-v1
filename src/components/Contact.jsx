@@ -1,14 +1,9 @@
-
 export default function Contact() {
-
-    return (
-        <>
-            <div className="text-4xl text-center font-bold pb-5">contact us : D</div>
-
-            <div className="text-center">yepezjuan6@gmail.com</div>
-            <div className="text-center"> 626-598-0284</div>x
-            <div className="text-center p-6">copyright © Orange Grove.</div>
-        </>
-    )
+  return (
+    <section id="contact" className="text-center scroll-mt-20">
+      <h3 className="text-4xl font-bold pt-5">contact us : D</h3>
+      <span>yepezjuan6@gmail.com</span>
+      <div className="p-6">copyright © Orange Grove.</div>
+    </section>
+  );
 }
-
