@@ -1,24 +1,17 @@
 import React from "react";
+import CloudinaryImage from "./CloudinaryImage";
 
-import pic4 from "../assets/pic4.jpg";
-import pic5 from "../assets/pic5.jpg";
-import pic7 from "../assets/pic7.jpeg";
-
-const carouselData = [
-  { src: pic4, alt: "First Image" },
-  { src: pic7, alt: "Second Image" },
-  { src: pic5, alt: "Third Image" },
-];
+const carouselData = ["pic4_hp2goy", "pic7_svylvg", "pic5_gilyep"];
 
 const Carousel = ({ data }) => {
   return (
     <div className="w-full overflow-hidden grid grid-cols-3 scroll-mt-20">
-      {carouselData.map((item, idx) => (
-        <img
-          className=" h-auto object-cover"
-          src={item.src}
-          alt={item.alt}
-          key={idx}
+      {carouselData.map((publicId, i) => (
+        <CloudinaryImage
+          key={i}
+          publicId={publicId}
+          loading="lazy"
+          className="w-full h-auto object-cover"
         />
       ))}
     </div>
