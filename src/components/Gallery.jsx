@@ -28,7 +28,8 @@ export default function Gallery() {
             key={i}
             publicId={publicId}
             loading="lazy"
-            className="w-full h-auto object-cover"
+            width={464}
+            height={308}
           />
         ))}
       </div>

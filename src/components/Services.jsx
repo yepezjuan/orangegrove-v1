@@ -28,8 +28,8 @@ export default function Services() {
     >
       <div className="font-bold text-4xl align-center mb-4">SERVICES</div>
       <div className=" m-20 grid grid-cols-3 ">
-        {services.map((service) => (
-          <div key={service.id}>
+        {services.map((service, i) => (
+          <div key={i}>
             <h2 className="text-xl font-bold underline decoration-orange-400 decoration-2">
               {service.title}
             </h2>

@@ -11,7 +11,8 @@ const Carousel = ({ data }) => {
           key={i}
           publicId={publicId}
           loading="lazy"
-          className="w-full h-auto object-cover"
+          width={653}
+          height={433}
         />
       ))}
     </div>
